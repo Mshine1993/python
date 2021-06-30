@@ -2,13 +2,14 @@
 a = 10
 b = 5
 c = a + b
-print (c)
+print(c)
 name = input('Ведите имя ')
 surname = input('Введите фамилию ')
-print ('Вас зовут: ', name, surname)
+print('Вас зовут: ', name, surname)
 age = int(input('Введите ваш возраст: '))
 retire = 65
 print('До выхода на пенсию осталось: ', retire - age, 'лет')
+print('End')
 
 # Task2
 seconds = int(input('Введите количество секунд от 1 до 86400: '))
@@ -16,13 +17,12 @@ hour = (seconds // 3600)
 time_sec = (seconds % 60)
 min = ((seconds - (hour*3600)) // 60)
 time = (hour, min, time_sec)
-print (time)
+print(time)
 
 # Task 3
 n = input('Введите число: ')
 sum = (int(n)) + (int(n+n)) + (int(n+n+n))
-print (sum)
-
+print(sum)
 
 # Task 4
 a = input('Введите число больше 0: ')
