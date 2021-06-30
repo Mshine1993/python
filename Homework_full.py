@@ -9,6 +9,7 @@ print('Вас зовут: ', name, surname)
 age = int(input('Введите ваш возраст: '))
 retire = 65
 print('До выхода на пенсию осталось: ', retire - age, 'лет')
+print('End')
 
 # Task2
 seconds = int(input('Введите количество секунд от 1 до 86400: '))
