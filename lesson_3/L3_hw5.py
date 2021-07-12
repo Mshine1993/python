@@ -14,3 +14,4 @@ def my_sum():
         print(f'Сумма чисел = {s}')
 
 print(my_sum())
+

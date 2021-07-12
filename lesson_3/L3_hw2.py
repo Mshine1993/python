@@ -12,3 +12,4 @@ Phone = input('Введите ваш номер телефона: ')
 Email = input('Введите ваш email: ')
 
 print(information(name=Name, surname=Surname, age=Age, birthday=Birthday, city=City, phone=Phone, email=Email))
+
